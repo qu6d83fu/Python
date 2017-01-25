@@ -20,12 +20,10 @@ serverinfo={
 	12:"12.NA_Game3"}
 		
 rdsinfo={
-#	1:"id-sea-portal.cugpvv18vihk.us-west-2.rds.amazonaws.com",
-	1:"192.168.200.145",
-#	2:"id-na-portal.cugpvv18vihk.us-west-2.rds.amazonaws.com",
-	2:"192.168.200.143",
-	3:"192.168.200.145",
-	4:"192.168.200.143",
+	1:"id-sea-portal.cugpvv18vihk.us-west-2.rds.amazonaws.com",
+	2:"id-na-portal.cugpvv18vihk.us-west-2.rds.amazonaws.com",
+	3:"id-sea.cugpvv18vihk.us-west-2.rds.amazonaws.com",
+	4:"id-sea.cugpvv18vihk.us-west-2.rds.amazonaws.com",
 	5:"id-sea.cugpvv18vihk.us-west-2.rds.amazonaws.com",
 	6:"id-sea.cugpvv18vihk.us-west-2.rds.amazonaws.com",
 	7:"id-sea.cugpvv18vihk.us-west-2.rds.amazonaws.com",
@@ -35,12 +33,10 @@ rdsinfo={
 	11:"id-na-game01.cugpvv18vihk.us-west-2.rds.amazonaws.com",
 	12:"id-na-game01.cugpvv18vihk.us-west-2.rds.amazonaws.com"}
 dbinfo={
-#	1:"id_sea_portal",
-	1:"neil_test",
-#	2:"id_sea_portal",
-	2:"neil_test",
-	3:"neil_test2",
-	4:"neil_test1",
+	1:"id_sea_portal",
+	2:"id_sea_portal",
+	3:"id_cb_game",
+	4:"id_cb2_game",
 	5:"id_cb3_game",
 	6:"id_cb4_game",
 	7:"id_cb5_game",
@@ -127,9 +123,9 @@ if sqlcheck == 'Y' or sqlcheck == 'y':
 			THR=MultyThreadSQL(serverinfo,rdsinfo,dbinfo,sqllist,server,num,Rlock)
 			THR.start()
 			
-#			threads.append(THR)
-#		for THR in threads:
-#			THR.join()
+			threads.append(THR)
+		for THR in threads:
+			THR.join()
 else:
 	print 'Exit!'
 	sys.exit()
