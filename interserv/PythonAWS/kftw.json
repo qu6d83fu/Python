@@ -1,0 +1,19 @@
+{
+  "RegionID": "ap-northeast-1",
+  "Servers": [
+    {
+      "InstanceID": "i-199f9ebc",
+      "AutoScalingGroups": {
+        "OnDemean": "KF-Game01-Web-Group-20160104",
+        "Spot": "KF-Game01-Web-SpotGroup-20160629"
+      }
+    },
+    {
+      "InstanceID": "i-00f9b03fad887b96e",
+      "AutoScalingGroups": {
+        "OnDemean": "KF-Game18-Web-Group-20170103",
+        "Spot": "KF-Game18-Web-SpotGroup-20170112"
+      }
+    }
+  ]
+}

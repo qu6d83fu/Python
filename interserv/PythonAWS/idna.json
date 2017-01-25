@@ -1,0 +1,27 @@
+{
+  "RegionID": "us-west-2",
+  "Servers": [
+    {
+      "InstanceID": "i-0aeeee3caa73c0b05",
+      "AutoScalingGroups": {
+        "OnDemean": "ID-NA-Game01-AutoScaling-Group-20160822",
+        "Spot": ""
+      }
+     },
+    {
+      "InstanceID": "i-061ad839d2a17aacc",
+      "AutoScalingGroups": {
+        "OnDemean": "ID-NA-Game02-AutoScaling-Group-20161017-1",
+        "Spot": ""
+      }
+     },
+    {
+      "InstanceID": "i-0a8f73fa0ac8562cd",
+      "AutoScalingGroups": {
+        "OnDemean": "ID-NA-Game03-AutoScaling-Group-20161017",
+        "Spot": ""
+      }
+
+    }
+  ]
+}

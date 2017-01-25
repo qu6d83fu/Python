@@ -1,0 +1,12 @@
+{
+  "RegionID": "ap-southeast-1",
+  "Servers": [
+    {
+      "InstanceID": "i-01520e44f64acb33f",
+      "AutoScalingGroups": {
+        "OnDemean": "ISReport-Web-Group-20170123",
+        "Spot": ""
+      }
+    }
+  ]
+}

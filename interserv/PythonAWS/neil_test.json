@@ -1,0 +1,13 @@
+{
+  "RegionID": "ap-northeast-1",
+  "Servers": [
+    {
+      "InstanceID": "i-00123c5e22801227f",
+      "InstanceIP": "54.199.240.20",
+      "AutoScalingGroups": {
+        "OnDemean": "",
+        "Spot": ""
+      }
+    }
+  ]
+}

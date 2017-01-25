@@ -1,0 +1,12 @@
+{
+  "RegionID": "ap-southeast-1",
+  "Servers": [
+    {
+      "InstanceID": "i-0bef4369aabef0d64",
+      "AutoScalingGroups": {
+        "OnDemean": "KF-Zone-6-Game01-Web-Group-20160721",
+        "Spot": ""
+      }
+    }
+  ]
+}

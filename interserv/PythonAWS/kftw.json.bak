@@ -1,0 +1,124 @@
+{
+  "RegionID": "ap-northeast-1",
+  "Servers": [
+    {
+      "InstanceID": "i-199f9ebc",
+      "AutoScalingGroups": {
+        "OnDemean": "KF-Game01-Web-Group-20160104",
+        "Spot": "KF-Game01-Web-SpotGroup-20160629"
+      }
+    },
+    {
+      "InstanceID": "i-dbbff67e",
+      "AutoScalingGroups": {
+        "OnDemean": "KF-Game02-Web-Group-20160106",
+        "Spot": "KF-Game02-Web-SpotGroup-20160629"
+      }
+    },
+    {
+      "InstanceID": "i-5aa2e9ff",
+      "AutoScalingGroups": {
+        "OnDemean": "KF-Game03-Web-Group-20160108",
+        "Spot": "KF-Game03-Web-SpotGroup-20160629"
+      }
+    },
+    {
+      "InstanceID": "i-547326f1",
+      "AutoScalingGroups": {
+        "OnDemean": "KF-Game04-Web-Group-20160524",
+        "Spot": "KF-Game04-Web-SpotGroup-20160629"
+      }
+    },
+    {
+      "InstanceID": "i-132d1cb6",
+      "AutoScalingGroups": {
+        "OnDemean": "KF-Game05-Web-Group-20160112",
+        "Spot": "KF-Game05-Web-SpotGroup-20160629"
+      }
+    },
+    {
+      "InstanceID": "i-9fb9ea3a",
+      "AutoScalingGroups": {
+        "OnDemean": "KF-Game06-Web-Group-20160114",
+        "Spot": "KF-Game06-Web-SpotGroup-20160629"
+      }
+    },
+    {
+      "InstanceID": "i-ac93cc09",
+      "AutoScalingGroups": {
+        "OnDemean": "KF-Game07-Web-Group-20160117",
+        "Spot": "KF-Game07-Web-SpotGroup-20160629"
+      }
+    },
+    {
+      "InstanceID": "i-e0ce2844",
+      "AutoScalingGroups": {
+        "OnDemean": "KF-Game08-Web-Group-20160122",
+        "Spot": "KF-Game08-Web-SpotGroup-20160629"
+      }
+    },
+    {
+      "InstanceID": "i-a6fbd203",
+      "AutoScalingGroups": {
+        "OnDemean": "KF-Game09-Web-Group-20160130",
+        "Spot": "KF-Game09-Web-SpotGroup-20160629"
+      }
+    },
+    {
+      "InstanceID": "i-1d3d0cb8",
+      "AutoScalingGroups": {
+        "OnDemean": "KF-Game10-Web-Group-20160205",
+        "Spot": "KF-Game10-Web-SpotGroup-20160629"
+      }
+    },
+    {
+      "InstanceID": "i-83505326",
+      "AutoScalingGroups": {
+        "OnDemean": "KF-Game11-Web-Group-20160219",
+        "Spot": "KF-Game11-Web-SpotGroup-20160629"
+      }
+    },
+    {
+      "InstanceID": "i-dd4aa379",
+      "AutoScalingGroups": {
+        "OnDemean": "KF-Game12-Web-Group-20160318",
+        "Spot": "KF-Game12-Web-SpotGroup-20160629"
+      }
+    },
+    {
+      "InstanceID": "i-48bd4dec",
+      "AutoScalingGroups": {
+        "OnDemean": "KF-Game13-Web-Group-20160325",
+        "Spot": "KF-Game13-Web-SpotGroup-20160629"
+      }
+    },
+    {
+      "InstanceID": "i-a2e64b3d",
+      "AutoScalingGroups": {
+        "OnDemean": "KF-Game14-Web-Group-20160408",
+        "Spot": "KF-Game14-Web-SpotGroup-20160629"
+      }
+    },
+    {
+      "InstanceID": "i-349924ab",
+      "AutoScalingGroups": {
+        "OnDemean": "KF-Game15-Web-Group-20160422",
+        "Spot": "KF-Game15-Web-SpotGroup-20160629"
+      }
+    },
+    {
+      "InstanceID": "i-47e47dd8",
+      "AutoScalingGroups": {
+        "OnDemean": "KF-Game16-Web-Group-20160525",
+        "Spot": "KF-Game16-Web-SpotGroup-20160629"
+      }
+    },
+    {
+      "InstanceID": "i-0dfe68f95946347f7",
+      "AutoScalingGroups": {
+        "OnDemean": "KF-Game17-Web-Group-20160817",
+        "Spot": "KF-Game17-Web-SpotGroup-20160817"
+      }
+    }
+  ]
+}

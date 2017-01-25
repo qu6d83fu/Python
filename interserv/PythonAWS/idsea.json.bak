@@ -1,0 +1,54 @@
+{
+  "RegionID": "us-west-2",
+  "Servers": [
+    {
+      "InstanceID": "i-05bae84e4ff4852f3",
+      "AutoScalingGroups": {
+        "OnDemean": "ID-SEA-Game01-AutoScaling-Group-20160530",
+        "Spot": ""
+      }
+    },
+    {
+      "InstanceID": "i-099d0d637a7e1e5d5",
+      "AutoScalingGroups": {
+        "OnDemean": "ID-SEA-Game02-AutoScaling-Group-20160831",
+        "Spot": ""
+      }
+    },
+    {
+      "InstanceID": "i-0bd0af7f390127a15",
+      "AutoScalingGroups": {
+        "OnDemean": "ID-SEA-Game03-AutoScaling-Group-20160919",
+        "Spot": ""
+      }
+    },
+    {
+      "InstanceID": "i-0074e4e1c46191b26",
+      "AutoScalingGroups": {
+        "OnDemean": "ID-SEA-Game04-AutoScaling-Group-20160920",
+        "Spot": ""
+      }
+    },
+    {
+      "InstanceID": "i-066df087875884cde",
+      "AutoScalingGroups": {
+        "OnDemean": "ID-SEA-Game05-AutoScaling-Group-20160920",
+        "Spot": ""
+      }
+    },
+    {
+      "InstanceID": "i-088c2290b7f830e6c",
+      "AutoScalingGroups": {
+        "OnDemean": "ID-SEA-Game06-AutoScaling-Group-20160920",
+        "Spot": ""
+      }
+    },
+    {
+      "InstanceID": "i-0c7beb46742e4e757",
+      "AutoScalingGroups": {
+        "OnDemean": "ID-SEA-Game07-AutoScaling-Group-20160920",
+        "Spot": ""
+      }
+    }
+  ]
+}
