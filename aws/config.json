@@ -1,0 +1,13 @@
+{
+	"Region":"ap-northeast-1",
+	"ServerInfo":[
+	{
+	  "InstanceID":"i-029939f4a97b06889",
+	  "AutoScalingGroup":"NA1"
+	},
+	{
+          "InstanceID":"i-0ccdb0717731b9225",
+          "AutoScalingGroup":"NA2"
+        }
+]
+}
